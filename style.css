@@ -1,0 +1,164 @@
+body {
+    font-family: 'Rubik Dirt', sans-serif;
+    color:rgb(255, 255, 255);
+    background-color:rgb(78, 78, 78)
+}
+
+h2 {
+    font-family: 'Lato', cursive;
+    color:aliceblue
+}
+
+.botao {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: brown;
+    font-size: .9em;
+    border-radius: 3px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+
+
+nav > a {
+    text-decoration: none;
+    color: rgb(154, 5, 5);
+    font-weight: 800;
+    font-size: 32px;
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0%;
+    width: 100%;
+
+}
+
+nav ul li {
+    text-align: center;
+    width: 100%;
+    font-family: 'Kanit', sans-serif;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(wakandaforever.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: aliceblue;
+    text-align: center;
+    padding: 240px;
+}
+
+
+#sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px 20px 20px;
+    background-color: black;
+    color: #ffffff;
+
+}
+
+
+#sobre h2 {
+    color: aliceblue;
+}
+
+
+#sobre p {
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+}
+
+#sobre .botao {
+
+}
+
+
+#video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 100px;
+}
+
+form > input {
+    flex: 1 1 10ch;
+    margin: .5rem;
+}
+
+form > input[type=email] {
+    flex: 3 1 30ch;
+    margin: .5rem;
+}
+
+input {
+    border: none;
+    background:hsl(0, 21%, 6%);
+    border-radius:  10px;
+    padding: .75rem 1rem;
+}
+
+input[type="submit"] {
+    background-color: rgb(154, 5, 5);
+    color: #ffffff;
+}
+
+
+#Miranhaverso {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+#contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+#contato h2 {
+    color: rgb(154, 5, 5);
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: #ffffff;
+}
